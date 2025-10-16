@@ -37,6 +37,8 @@ console.log(math(8, 2));
 
 //Arrow Function
 const calcYearsUntilRetirement2 = (birthYear) => {
+  console.log(this);
+
   const currentYear = new Date().getFullYear();
   const currentAge = currentYear - birthYear;
 
