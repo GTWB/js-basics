@@ -1,7 +1,13 @@
 "use strict";
+//VARIABLES
+let name = "John";
+let age = 35;
+
+console.log(`My name is ${name} and I am ${age} years old`);
+
+//FUNCTIONS
 
 //Regular Function
-
 function calcYearsUntilRetirement(birthYear) {
   const currentYear = new Date().getFullYear();
   const currentAge = currentYear - birthYear;
@@ -16,6 +22,19 @@ function calcYearsUntilRetirement(birthYear) {
 
 console.log(calcYearsUntilRetirement(1990));
 
+/* -------------- */
+
+const math = function (a, b) {
+  return {
+    sum: a + b,
+    difference: a - b,
+    product: a * b,
+    quotient: b === 0 ? null : a / b,
+  };
+};
+
+console.log(math(8, 2));
+
 //Arrow Function
 const calcYearsUntilRetirement2 = (birthYear) => {
   const currentYear = new Date().getFullYear();
@@ -28,17 +47,8 @@ const calcYearsUntilRetirement2 = (birthYear) => {
 
 console.log(calcYearsUntilRetirement2(1999));
 
+/* ------------------------------------- */
+
 const describeJob = (job, name) => `${name} is a ${job}`;
 
 console.log(describeJob("QA Engineer", "Giuseppe"));
-
-const math = function (a, b) {
-  return {
-    sum: a + b,
-    difference: a - b,
-    product: a * b,
-    quotient: b === 0 ? null : a / b,
-  };
-};
-
-console.log(math(8, 2));
