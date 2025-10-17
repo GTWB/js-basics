@@ -28,7 +28,7 @@ const calcAverageArr = function (arr) {
   }
   const average = acc / arr.length;
 
-  return `The average age is ${average.toFixed(1)}`;
+  return `The average age is ${average.toFixed(1)} years`;
 };
 
 console.log(calcAverageArr(ages));
