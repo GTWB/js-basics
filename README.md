@@ -18,6 +18,10 @@ input validation, and simple operations.
 
 Exercises covering creation, manipulation and iteration of arrays in JavaScript.
 
+# 03 – Objects
+
+Exercises covering object creation, property manipulation, and object methods in JavaScript.
+
 ## Run
 
 Go inside the folder and type the following command on the terminal:
