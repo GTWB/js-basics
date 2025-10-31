@@ -34,6 +34,20 @@ Each block demonstrates data transformation patterns relevant for QA automation 
 - filter: conditional selection
 - reduce: aggregation
 
+# 05 – Asynchronous JavaScript
+
+This module focuses on mastering asynchronous programming in JavaScript — a fundamental skill for QA and Automation Engineers.  
+It demonstrates how to manage asynchronous flows using Promises, async/await, and concurrency tools such as Promise.all() and Promise.race().
+
+## Learning Topics
+
+- Understand the asynchronous nature of JavaScript.
+- Create and handle Promises for managing async logic.
+- Write cleaner asynchronous code using async/await.
+- Implement proper error handling using `.catch()` and `try...catch`.
+- Execute multiple asynchronous operations in parallel using `Promise.all()` and `Promise.race()`.
+- Apply these concepts to real-world QA workflows (API calls, test pipelines, data fetching).
+
 ## Run
 
 Go inside the folder and type the following command on the terminal:
