@@ -78,7 +78,28 @@ It builds upon asynchronous programming concepts and focuses on practical use ca
 5. **Parallel API Calls**  
    Fetch multiple endpoints simultaneously using `Promise.all()` and `Promise.allSettled()`, then merge the results for analysis.
 
-## Run
+# 🧩 Final Assessment – JavaScript Foundations
 
-Go inside the folder and type the following command on the terminal:
-node file-name.js
+This final assessment consolidates all the concepts learned throughout the JavaScript Foundations block, combining logic, asynchronous programming, and data manipulation into real QA-style exercises.
+
+## Objective
+
+To demonstrate the ability to:
+
+- Use core JavaScript syntax and control structures.
+- Handle asynchronous operations with `fetch()`, Promises, and `async/await`.
+- Manipulate and transform data using array methods (`map`, `filter`, `reduce`).
+- Manage errors gracefully.
+- Build small, test-focused utilities — similar to those used in automation workflows.
+
+---
+
+## Tasks
+
+- Task A – Test Data Cleaner
+- Task B – QA Report Generator
+- Task C – Test Result Aggregator (Bonus)
+
+## How to Run
+
+Go inside the folder you want to run. Open the terminal and type the following command: node file-name.js
