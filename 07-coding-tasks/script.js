@@ -52,7 +52,7 @@ const cleanUserData = function (data) {
           active = true;
         }
 
-        console.log(`${user.name}, ${user.email}, ${active}`);
+        console.log(`${user.name.toUpperCase()}, ${user.email}, ${active}`);
         return {
           name: user.name.toUpperCase(),
           email: user.email,
@@ -63,6 +63,7 @@ const cleanUserData = function (data) {
     .catch((err) => console.error(err.message)); //Handling error
 };
 
+cleanUserData(fetchData("https://jsonplaceholder.typicode.com/users"));
 // Task B – QA Report Generator
 
 // Write an async function called generateQAReport() that:
